@@ -69,6 +69,7 @@ h2 {
 .banner {
     background-color: rgb(227, 213, 195);
     width: 100%;
+    padding: 1em;
 }
 
 .events {
@@ -170,8 +171,8 @@ i:hover {
 }
 
 .contact {
+    padding: 1em;
     background-color: rgb(227, 213, 195);
-    
 }
 
 .contact h3 {
@@ -182,8 +183,9 @@ i:hover {
 
 .contact p {
     text-align: center;
-    padding: 2em 0 3em;
+    padding: 2em 0em 3em;
     margin: 0;
+    display: flex;
 }
 
 footer {
