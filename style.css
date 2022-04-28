@@ -58,6 +58,8 @@ h2 {
 
 .mission {
     background-image: url(./images/mission.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     min-height: 700px;
     width: auto;
@@ -87,11 +89,13 @@ h2 {
     justify-content: center;
     gap: 2em;
     padding: 2em 2em;
+    max-width: 100em;
+    margin: 0 auto;
 }
 
 .event-card {
     padding: 2em 2em;
-    max-width: 35em;
+    max-width: 40em;
     border: 2px solid rgb(227, 213, 195);
     background-color: rgb(247, 242, 235);
     display: flex;
