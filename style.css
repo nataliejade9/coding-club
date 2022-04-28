@@ -53,6 +53,7 @@ h2 {
     margin: 0;
     padding: 1em 0;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 .mission {
@@ -177,6 +178,18 @@ i:hover {
     text-align: center;
     line-height: 2em;
     letter-spacing: 2px;
+}
+
+.contact p {
+    text-align: center;
+    padding: 2em 0 3em;
+    margin: 0;
+}
+
+footer {
+    font-size: 0.75em;
+    border-top: 1px solid rgb(35, 58, 59);
+    padding: 4em 1em 1em;
 }
 
 @media only screen and (max-width: 760px) {
