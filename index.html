@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Coding Club</title>
 </head>
 <body>
@@ -12,57 +14,72 @@
         <nav>
             <h1>Coding Club</h1>
             <ul>
-                <li><a href="#">Mission</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="mission">
+        <section class="mission" id="mission">
             <div class="banner">
                 <h2 title="Image from Christina @ wocintechchat.com ">Our Mission</h2>
                 <p>We bring women together to learn and improve their coding skills. Creating a welcoming and empowering environment for your coding journey.</p>
             </div>
         </section>
-        <section class="events">
+        <section class="events" id="events">
             <h2 class="event-title">Events</h2>
             <div class="cards">
                 <div class="event-card">
                     <img src="./images/Event-1.jpg" alt="two women looking at a laptop">
                     <div class="event-text">
                         <h3>Beginner coding</h3>
-                        <p>Get to know other beginner's and bond over newbie struggles.</p>
-                        <a href="#" class="event-button">Find out more</a>
+                        <h4>13th September 2022</h4>
+                        <p>Get to know other newbies and bond over your beginner struggles.</p>
+                        <a href="#" class="event-button">more info</a>
+                        <a href="#"><i class="far fa-bookmark fa-lg"></i></a>
                     </div>
                 </div>
                 <div class="event-card">
                     <img src="./images/Event-2.jpg" alt="A woman working on her laptop">
                     <div class="event-text">
-                        <h3>Coding with coffee</h3>
+                        <h3>Coding & coffee</h3>
+                        <h4>23rd October 2022</h4>
                         <p>Work on your own projects with others in a relaxed environment.</p>
-                        <a href="#" class="event-button">Find out more</a>
+                        <a href="#" class="event-button">more info</a>
+                        <a href="#"><i class="far fa-bookmark fa-lg"></i></a>
                     </div>
                 </div>
                 <div class="event-card">
                     <img src="./images/Event-3.jpg" alt="Two women working in an office">
                     <div class="event-text">
-                        <h3>Pair Programming</h3>
+                        <h3>Pairing</h3>
+                        <h4>10th November 2022</h4>
                         <p>Practise your pair programming and meet some new people.</p>
-                        <a href="#" class="event-button">Find out more</a>
+                        <a href="#" class="event-button">more info</a>
+                        <a href="#"><i class="far fa-bookmark fa-lg"></i></a>
                     </div>
                 </div>
                 <div class="event-card">
                     <img src="./images/Event-4.jpg" alt="two women looking at a laptop">
                     <div class="event-text">
-                        <h3>Interview practise</h3>
-                        <p>Find out how to interview well and practise with peers.</p>
-                        <a href="#" class="event-button">Find out more</a>
+                        <h3>Interview time</h3>
+                        <h4>3rd December 2022</h4>
+                        <p>Mentoring and practising mock interview techniques with your peers.</p>
+                        <a href="#" class="event-button">more info</a>
+                        <a href="#"><i class="far fa-bookmark fa-lg"></i></a>
                     </div>
                 </div>
-                
-                </div>
             </div>
+        </section>
+        <section class="quote">
+            <h2>Member Feedback</h2>
+            <p class="quotation">"I didn't think I was clever enough to learn code. But I went to the Beginner Coding event and realised I was more than capable! The amazing women at coding club gave me so much support and made me feel so welcome. Thanks ladies!" -- By Ada Jones</p>
+        </section>
+        <section class="contact" id="contact">
+            <h2>Contact us</h2>
+            <h3>Email: us@coding_club.org<br>Phone: 07989 3129877</h3>
+            
         </section>
     </main>
 </body>

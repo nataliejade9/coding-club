@@ -34,6 +34,7 @@ ul {
     justify-content: end;
     align-items: center;
     flex-wrap: wrap;
+    padding: 0;
 }
 
 a {
@@ -71,6 +72,7 @@ h2 {
 
 .events {
     background-color: rgb(158, 113, 82);
+    padding: 1em 0;
 }
 
 .event-title {
@@ -87,10 +89,15 @@ h2 {
 
 .event-card {
     padding: 2em 2em;
-    max-width: 37em;
+    max-width: 35em;
     border: 2px solid rgb(227, 213, 195);
     background-color: rgb(247, 242, 235);
     display: flex;
+}
+
+.event-card img {
+    max-width: 300px;
+    max-height: 200px;
 }
 
 h3 {
@@ -102,6 +109,18 @@ h3 {
     padding: 0.5em 0 0.75em 0;
 }
 
+h4 {
+    font-size: 0.7em;
+    color: rgb(158, 113, 82);
+    margin: 0;
+    padding: 0.5em 0;
+}
+
+.events p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
 .event-text {
     padding: 0 1em;
     letter-spacing: 1px;
@@ -109,4 +128,87 @@ h3 {
 
 .event-button {
     text-align: center;
+    text-transform: lowercase;
+    margin: 1em 0 0 0;
+    font-size: 0.75rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(158, 113, 82);
+    border: rgb(227, 213, 195) 0.125em solid;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    transition: all 100ms linear;
+}
+
+.event-button:hover {
+    background-color: rgb(158, 113, 82);
+    color: rgb(247, 242, 235);
+    text-decoration: none;
+}
+
+i {
+    color: rgb(158, 113, 82);
+    padding: 0.5em 1em;
+    float: right;
+}
+
+i:hover {
+    color: rgb(35, 58, 59);
+}
+
+.quote {
+    padding: 2em 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quotation {
+    text-align: center;
+    max-width: 50em;
+}
+
+.contact {
+    background-color: rgb(227, 213, 195);
+    
+}
+
+.contact h3 {
+    text-align: center;
+    line-height: 2em;
+    letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 760px) {
+
+nav {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+ul {
+    justify-content: center;
+}
+
+.event-text p {
+    display: none;
+}
+
+.event-card {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.event-card h3 {
+    padding: 1em 0;
+    text-align: center;
+}
+
+h4 {
+    padding: 0 0 2em 0;
+    color: rgb(35, 58, 59);
+}
+
 }
