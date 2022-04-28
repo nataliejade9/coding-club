@@ -182,10 +182,10 @@ i:hover {
 }
 
 .contact p {
-    text-align: center;
     padding: 2em 0em 3em;
     margin: 0;
     display: flex;
+    justify-content: center;
 }
 
 footer {
