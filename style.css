@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-    color:rgb(158, 113, 82);
+    color:rgb(138, 98, 71);
     text-decoration: underline;
 }
 
@@ -75,7 +75,7 @@ h2 {
 }
 
 .events {
-    background-color: rgb(158, 113, 82);
+    background-color: rgb(138, 98, 71);
     padding: 1em 0;
 }
 
@@ -117,7 +117,7 @@ h3 {
 
 h4 {
     font-size: 0.7em;
-    color: rgb(158, 113, 82);
+    color: rgb(138, 98, 71);
     margin: 0;
     padding: 0.5em 0;
 }
@@ -139,7 +139,7 @@ h4 {
     font-size: 0.75rem;
     cursor: pointer;
     text-decoration: none;
-    color: rgb(158, 113, 82);
+    color: rgb(138, 98, 71);
     border: rgb(227, 213, 195) 0.125em solid;
     padding: 0.5em 1em;
     border-radius: 0.25em;
@@ -147,13 +147,13 @@ h4 {
 }
 
 .event-button:hover {
-    background-color: rgb(158, 113, 82);
+    background-color: rgb(138, 98, 71);
     color: rgb(247, 242, 235);
     text-decoration: none;
 }
 
 i {
-    color: rgb(158, 113, 82);
+    color: rgb(138, 98, 71);
     padding: 0.5em 1em;
     float: right;
 }
